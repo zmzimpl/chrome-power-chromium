@@ -1,0 +1,16 @@
+# 在 chrome_power/base/BUILD.gn
+
+source_set("extended_parameters") {
+  sources = [
+    "extended_parameters.cc",  # 源文件列表
+  ]
+
+  public_deps = [
+    "//base",                  # 依赖 Chromium 的 base 模块
+  ]
+
+  public = [
+    "extended_parameters.h",    # 公开的头文件
+    "custom_command.h",
+  ]
+}
