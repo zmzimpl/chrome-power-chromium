@@ -1,5 +1,8 @@
 # Chrome Power
 
+## Refer
+[r0chrome](https://github.com/CrackerCat/r0chrome)
+
 ## Build
 
 `autoninja -C out\Default chrome`
